@@ -20,6 +20,7 @@ public class WarpScreen extends Screen {
     private final TranslatableText BUTTON_KROGNAR = new TranslatableText("menu.blockgame.warp.button.krognar");
     private final TranslatableText BUTTON_SUNKEN = new TranslatableText("menu.blockgame.warp.button.sunken");
     private final TranslatableText BUTTON_MYRKHEIM = new TranslatableText("menu.blockgame.warp.button.myrkheim");
+    private final TranslatableText BUTTON_BAZAAR = new TranslatableText("menu.blockgame.warp.button.bazaar");
     private final TranslatableText BUTTON_ROTTENMAW = new TranslatableText("menu.blockgame.warp.button.rotten_maw");
     private final TranslatableText BUTTON_NEITH = new TranslatableText("menu.blockgame.warp.button.neith");
     private final TranslatableText BUTTON_ARENA = new TranslatableText("menu.blockgame.warp.button.arena");
@@ -29,6 +30,7 @@ public class WarpScreen extends Screen {
         put(BUTTON_YGGDRASIL, "/warp Yggdrasil");
         put(BUTTON_ORIGIN, "/warp Origin");
         put(BUTTON_MYRKHEIM, "/warp Myrkheim");
+        put(BUTTON_BAZAAR, "/warp Bazaar");
         put(BUTTON_KROGNAR, "/warp Krognars_Bastion");
         put(BUTTON_SUNKEN, "/warp Sunken_Cells");
         put(BUTTON_ROTTENMAW, "/warp Rotten_Maw");
